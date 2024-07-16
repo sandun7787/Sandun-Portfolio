@@ -1,0 +1,947 @@
+
+#My_About{
+   /* height: 120vh;*/
+    height: 904.8px;
+}
+/* About me Page Second Section*/
+.About_me_second_section{
+    position: relative;
+ /*   height: 80vh;*/
+    height: 603.2px;
+
+}
+/* Article styles of About Me Page*/
+.about_Article{
+    position: absolute;
+    width: 60vw;
+   /* height: 80vh;*/
+    height: 603.2px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 50px;
+    margin: 10px;
+    font-size: 10px;
+}
+/* Paragraph styles of Article in About Me Page*/
+.about_Article>p{
+
+    padding-top: 10px;
+    padding-left:85px;
+    padding-right:85px;
+    text-align: justify;
+    font-size: 1.5em;
+}
+/* h1 styles of Article in About Me Page*/
+.Description_h1{
+    text-align: center;
+    color: #403D4E;
+    margin: 0;
+    font-size: 3.5em;
+
+}
+/* h2 styles of Article in About Me Page*/
+.Description_h2{
+
+    text-align: center;
+    color: #6C6C78;
+    padding-bottom: 10px;
+    margin-top: 8px;
+    font-size: 2.7em;
+    text-align: left;
+    padding-left: 250px;
+}
+/* h2 Typing Text styles of Article in About Me Page*/
+.Description_h2 span {
+    color: #e5114d;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+/*=========================================================================*/
+/* Define a Title Styles with About Me Section*/
+
+.about_sec{
+    padding-bottom: 50px;
+}
+
+#about_container {
+    width:800px;
+    color: #004FC5;
+    padding-top: 100px;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    margin:auto;
+}
+/* Define a Title Styles with About Me Section*/
+.about_title_h1{
+    position: relative;
+    font-size: 40px;
+    display: inline-block;
+    padding:0 15px;
+     margin: auto;
+}
+/* Define a Title Styles with About Me Section*/
+.about_title_h1:before,
+.about_title_h1:after {
+    position: absolute;
+    top: 50%;
+    width: 150px;
+    height: 3px;
+    content: '';
+    background-color: #004FC5;
+    left:-150px;
+}
+.about_title_h1:after {
+    left: 100%;
+}
+/* About section h2 styles*/
+
+.about_title_h2{
+    color: rgba(102, 102, 102, 0.2);
+    font-size:  70px;
+    margin: auto;
+    text-align: center;
+}
+
+/*=========================================================================*/
+
+
+/* 3 Rectangle of about page Styles */
+#rectangle{
+     padding-top: 50px;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    gap: 80px;
+    justify-content: center;
+   /* margin-top: 50px;*/
+}
+/* 3 Rectangle of about page Styles */
+.rectangle_1,.rectangle_2,.rectangle_3{
+    background-color: #5133CD;
+    border-radius: 25%;
+    width: 80px;
+    height: 80px;
+
+}
+/* 3 Rectangle of about page Styles */
+#count1,#count2,#count3{
+    color: white;
+    text-align: center;
+    font-size: 2.1em;
+    padding-top: 25px;
+}
+
+/*===================About Me Section Button Animation Styles====================*/
+.container_about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+/*noinspection CssInvalidPropertyValue*/
+.container_about a{
+    position: relative;
+    display: inline-block;
+    border: 2px solid #0fc40f;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 30px;
+    text-decoration: none;
+    Letter-spacing:2px;
+    color: #5000a2;
+    font-size: 1.5em;
+    -webkit-box-reflect: below 0px linear-gradient(transparent, rgba(0, 0, 0, 0.25));
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+.container_about a:hover{
+    transition-delay: 0.5s;
+    color: #000;
+    box-shadow:  0 0  10px #0fc40f,
+    0 0  20px #0fc40f,
+    0 0  40px #0fc40f,
+    0 0  80px #0fc40f,
+    0 0  160px #0fc40f;
+
+}
+
+.container_about a::before{
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width:20px;
+    height: 3px;
+    background: #0fc40f;
+    box-shadow: 5px -8px 0 #0fc40f,
+    5px  8px 0 #0fc40f;
+    transition:width 0.5s,left 0.5s,height 0.5s,
+    box-shadow 0.5s;
+    transition-delay: 1s,0.5s,0s,0s;
+}
+.container_about a:hover::before{
+    width: 60%;
+    height: 100%;
+    left: -2px;
+    box-shadow: 5px 0 0 #0fc40f,
+    5px 0 0 #0fc40f;
+    transition-delay: 0s,0.5s,1s,1s;
+}
+.container_about a::after{
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width:20px;
+    height: 3px;
+    background: #0fc40f;
+    box-shadow: -5px -8px 0 #0fc40f,
+    -5px  8px 0 #0fc40f;
+    transition:width 0.5s,left 0.5s,height 0.5s,
+    box-shadow 0.5s;
+    transition-delay:1s,0.5s,0s,0s ;
+}
+.container_about a:hover::after{
+    width: 60%;
+    height: 100%;
+    right: -2px;
+    box-shadow: -5px 0 0 #0fc40f,
+    -5px 0 0 #0fc40f;
+    transition-delay: 0s,0.5s,1s,1s;
+}
+.container_about a span{
+    position: relative;
+    z-index: 100;
+}
+/*==========================================================================*/
+
+#My_About>section:nth-child(3)>aside{
+    position: absolute;
+    width: 40%;
+    margin: 10px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#about_image{
+
+    width:270px;
+    height:300px;
+
+}
+.about_sec_circle1{
+    position: absolute;
+    background-size: contain;
+    background-position: center;
+    background-image: url("../assets/about_my_pic.png");
+    width: 380px;
+    height: 380px;
+    right: 10%;
+    border-radius: 100%;
+    background-color: rgba(127, 75, 216, 0.4);
+    z-index: 5;
+}
+.about_sec_circle2{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    left: 9%;
+    top: 52%;
+    border-radius: 100%;
+    background-color: rgba(94, 59, 238, 0.20);
+    z-index: 3;
+
+}
+.about_sec_circle2 h3:first-child{
+    padding-top: 30%;
+
+}
+.about_sec_circle2 h3{
+    color: #2C2929;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.rectangle_box1_bottom_h3,.rectangle_box2_bottom_h3,.rectangle_box3_bottom_h3{
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    position: absolute;
+}
+
+.rectangle_box1_bottom_h3{
+    padding-top: 35px;
+    padding-left: 8px;
+}
+
+.rectangle_box2_bottom_h3{
+    padding-top: 35px;
+    padding-left: 8px;
+}
+
+.rectangle_box3_bottom_h3{
+    padding-top: 35px;
+    padding-left: 20px;
+}
+#about_divs{
+    display: none;
+}
+
+
+/*================================== 320->Mobile -S ==================================*/
+
+@media all and (max-width: 320px){
+    #My_About {
+
+        height: 890.52px;
+
+    }
+
+    .about_sec {
+        padding-bottom: 20px;
+    }
+
+    #about_container {
+        width: 175px;
+        padding-top: 50px;
+    }
+
+    .About_me_second_section {
+        display: none;
+    }
+
+    #about_divs {
+        position: relative;
+        display: flex;
+     /*   border: 2px solid #ffff00;*/
+        flex-direction: column;
+        width: 318px;
+       /* height: 105vh;*/
+        height: 791.7px;
+        font-family: 'poppins', sans-serif;
+    }
+
+    #about_divs > div {
+        /*     border: 2px solid #157700;*/
+    }
+
+    .div1 {
+        /*border: 2px solid #e5114d;*/
+        height: 280px;
+    }
+
+    .div2 {
+        /* border: 2px solid #5000a2;*/
+        height: 530px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    .about_sec_circle1 {
+        width: 175px;
+        height: 175px;
+        right: 11%;
+        top: 3px;
+        z-index: 5;
+    }
+
+    .about_sec_circle2 {
+        width: 135px;
+        height: 135px;
+        left: 9%;
+        top: 15%;
+        z-index: 3;
+    }
+
+    .about_sec_circle2 h3 {
+        font-size: 6px;
+        font-family: 'poppins', sans-serif;
+    }
+    .about_sec_circle2 h3:first-child {
+        padding-top: 28%;
+    }
+
+    .Description_h1 {
+        font-size: 1.2em;
+        padding-top: 15px;
+    }
+
+    .Description_h2 {
+        padding-bottom: 10px;
+        margin-top: 8px;
+        font-size: 1em;
+        text-align: left;
+        padding-left: 36px;
+    }
+
+    .Description_h2 span {
+        color: #e5114d;
+        font-weight: 500;
+        text-align: left;
+    }
+
+    #about_divs .div2>p{
+        font-size: 0.8em;
+        text-align: justify;
+        padding-right: 10px;
+    }
+
+    .container_about a {
+        padding: 6px 5px;
+        margin: 33px;
+        font-size: 0.8em;
+        Letter-spacing: 1px;
+    }
+
+    .container_about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-right: 13px;
+        padding-top: 15px;
+    }
+
+    .about_title_h1 {
+        font-size: 17px;
+        padding: 0 8px;
+    }
+
+    .about_title_h1:before, .about_title_h1:after {
+        position: absolute;
+        top: 50%;
+        width: 60px;
+        height: 2px;
+        content: '';
+        background-color: #004FC5;
+        left: -60px;
+    }
+    .about_title_h1:after {
+        left: 100%;
+    }
+
+    .about_title_h2 {
+        font-size: 34px;
+    }
+}
+
+/*================================== 375 ->Mobile -M ==================================*/
+
+@media all and (min-width: 321px) and (max-width: 376px){
+    #My_About {
+       /* height: 138vh;*/
+        height: 890.52px;
+   /*      border: 2px solid red;*/
+    }
+
+    .about_sec {
+        padding-bottom: 34px;
+    }
+
+    #about_container {
+        width: 200px;
+        padding-top: 50px;
+    }
+
+    .About_me_second_section {
+        display: none;
+    }
+
+    #about_divs {
+        position: relative;
+        display: flex;
+        /* border: 2px solid #ffff00;*/
+        flex-direction: column;
+        width: 374px;
+       /* height: 105vh;*/
+        height: 791.7px;
+        font-family: 'poppins', sans-serif;
+    }
+
+    #about_divs > div {
+        /*     border: 2px solid #157700;*/
+    }
+
+    .div1 {
+        /*border: 2px solid #e5114d;*/
+        height: 315px;
+    }
+
+    .div2 {
+        /* border: 2px solid #5000a2;*/
+        height: 425px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    .about_sec_circle1 {
+        width: 210px;
+        height: 210px;
+        right: 13%;
+        top: 2px;
+        z-index: 5;
+    }
+
+    .about_sec_circle2 {
+
+        width: 150px;
+        height: 150px;
+        left: 9%;
+        top: 19%;
+        z-index: 3;
+    }
+
+    .about_sec_circle2 h3 {
+
+        font-size: 7.3px;
+        font-family: 'poppins', sans-serif;
+    }
+    .about_sec_circle2 h3:first-child {
+        padding-top: 28%;
+    }
+
+    .Description_h1 {
+        font-size: 1.2em;
+        padding-top: 15px;
+    }
+
+    .Description_h2 {
+        padding-bottom: 10px;
+        margin-top: 8px;
+        font-size: 1em;
+        text-align: left;
+        padding-left: 60px;
+    }
+
+    .Description_h2 span {
+        color: #e5114d;
+        font-weight: 500;
+        text-align: left;
+    }
+
+    #about_divs .div2>p{
+        font-size: 0.8em;
+        text-align: justify;
+        padding-right: 10px;
+    }
+
+    .container_about a {
+        padding: 6px 5px;
+        margin: 33px;
+        font-size: 0.8em;
+        Letter-spacing: 1px;
+    }
+
+    .container_about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 15px;
+        padding-right: 10px;
+    }
+    .about_title_h1 {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    .about_title_h1:before, .about_title_h1:after {
+        position: absolute;
+        top: 50%;
+        width: 70px;
+        height: 2px;
+        content: '';
+        background-color: #004FC5;
+        left: -70px;
+    }
+    .about_title_h1:after {
+        left: 100%;
+    }
+
+    .about_title_h2 {
+
+        font-size: 34px;
+
+    }
+}
+
+/*================================== 425->Mobile -L ================================== */
+
+@media all and (min-width: 376px) and (max-width: 426px) {
+    #My_About {
+
+      /*  height: 138vh;*/
+        height: 900px;
+
+    }
+
+    .about_sec {
+        padding-bottom: 34px;
+    }
+
+    #about_container {
+        width: 200px;
+        padding-top: 60px;
+    }
+
+    .About_me_second_section {
+        display: none;
+    }
+
+    #about_divs {
+        position: relative;
+        display: flex;
+       /* border: 2px solid #ffff00;*/
+        flex-direction: column;
+        width: 424px;
+        /*height: 105vh;*/
+        height: 791.7px;
+        font-family: 'poppins', sans-serif;
+    }
+
+    #about_divs > div {
+   /*     border: 2px solid #157700;*/
+    }
+
+    .div1 {
+        /*border: 2px solid #e5114d;*/
+        height: 315px;
+    }
+
+    .div2 {
+       /* border: 2px solid #5000a2;*/
+        height: 425px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    .about_sec_circle1 {
+        width: 220px;
+        height: 220px;
+        right: 14%;
+        top: 6px;
+        z-index: 5;
+    }
+
+    .about_sec_circle2 {
+
+        width: 160px;
+        height: 160px;
+        left: 11%;
+        top: 19%;
+        z-index: 3;
+    }
+
+    .about_sec_circle2 h3 {
+        color: #2C2929;
+        text-align: center;
+        font-size: 8px;
+        font-family: 'poppins', sans-serif;
+    }
+
+    .Description_h1 {
+        font-size: 1.2em;
+        padding-top: 18px;
+    }
+
+    .Description_h2 {
+        padding-bottom: 10px;
+        margin-top: 8px;
+        font-size: 1em;
+        text-align: left;
+        padding-left: 79px;
+    }
+
+    .Description_h2 span {
+        color: #e5114d;
+        font-weight: 500;
+        text-align: left;
+    }
+
+   #about_divs .div2>p{
+       font-size: 0.8em;
+       text-align: justify;
+       padding-right: 15px;
+    }
+
+    .container_about a {
+        padding: 6px 5px;
+        margin: 33px;
+        font-size: 0.8em;
+        Letter-spacing: 1px;
+    }
+
+    .container_about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 17px;
+        padding-right: 10px;
+    }
+    .about_title_h1 {
+        font-size: 24px;
+        padding: 0 15px;
+    }
+
+    .about_title_h1:before, .about_title_h1:after {
+        position: absolute;
+        top: 50%;
+        width: 70px;
+        height: 3px;
+        content: '';
+        background-color: #004FC5;
+        left: -70px;
+    }
+    .about_title_h1:after {
+        left: 100%;
+    }
+
+    .about_title_h2 {
+        color: rgba(102, 102, 102, 0.2);
+        font-size: 40px;
+        margin: auto;
+        text-align: center;
+    }
+
+
+}
+
+/*================================== 768->Tablet ================================== */
+
+@media all and (min-width: 426px) and (max-width: 768px){
+
+    #about_container {
+        width: 650px;
+        color: #004FC5;
+        padding-top: 100px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        margin: auto;
+    }
+
+    #My_About {
+       /* height: 112vh;*/
+        height: 844.48px;
+       /* border: 2px solid red;*/
+    }
+
+    .about_sec {
+        padding-bottom: 25px;
+    }
+
+
+    .about_title_h1{
+        font-size: 30px;
+    }
+
+    .about_title_h2{
+        font-size:  60px;
+    }
+
+    .about_Article {
+        padding-left: 15px;
+        font-size: 7.5px;
+    }
+
+    .Description_h1 {
+        font-size: 2.5em;
+        margin-left: -28px;
+    }
+
+    .Description_h2 {
+        font-size: 2.3em;
+        text-align: left;
+        padding-left: 75px;
+    }
+
+    .about_Article>p {
+        padding-top: 7px;
+        padding-left: 16px;
+        padding-right: 60px;
+        font-size: 1.7em;
+    }
+
+    #rectangle {
+        height: 72px;
+        gap: 55px;
+        margin-top: 15px;
+        margin-left: -100px;
+        padding-top: 28px;
+    }
+    .rectangle_1,.rectangle_2,.rectangle_3{
+
+        border-radius: 25%;
+        width: 60px;
+        height: 60px;
+    }
+
+    .container_about a {
+        padding: 8px 10px;
+        margin: 33px;
+        font-size: 1.5em;
+        Letter-spacing:1px;
+    }
+
+    .container_about {
+        padding-top: 70px;
+        margin-right: 105px;
+    }
+
+    .about_sec_circle1 {
+        width: 260px;
+        height: 260px;
+        right: 1%;
+        top: 1%;
+    }
+    .about_sec_circle2 {
+        width: 185px;
+        height: 185px;
+        left: -6%;
+        top: 36%;
+    }
+    .about_sec_circle2 h3 {
+        font-size: 10px;
+    }
+
+    main>section:nth-child(3)>section:nth-child(3)>aside {
+        top: 70px;
+    }
+
+    #about_divs{
+        display: none;
+    }
+}
+
+/*================================== 1024->Laptop ================================== */
+@media all and (min-width: 769px) and (max-width: 1024px){
+
+    #My_About {
+       /* height: 130vh;*/
+        height: 980.2px;
+    }
+
+    .about_title_h1{
+        font-size: 35px;
+    }
+
+    .about_title_h2{
+        font-size:  65px;
+    }
+
+    .about_Article {
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    .Description_h1 {
+        font-size: 3.0em;
+        margin-left: -28px;
+    }
+
+    .Description_h2 {
+        font-size: 2.5em;
+        text-align: left;
+        padding-left: 125px;
+    }
+
+    .about_Article>p {
+        padding-top: 8px;
+        padding-left: 40px;
+        padding-right: 80px;
+        font-size: 1.4em;
+    }
+
+    #rectangle {
+        height: 85px;
+        gap: 70px;
+        margin-top: 15px;
+        margin-left: -60px;
+        padding-top: 28px;
+    }
+    .rectangle_1,.rectangle_2,.rectangle_3{
+
+        border-radius: 25%;
+        width: 70px;
+        height: 70px;
+    }
+    .about_sec_circle1 {
+
+        width: 310px;
+        height: 310px;
+        right: 5%;
+        top: 20px;
+    }
+    .about_sec_circle2 {
+        width: 225px;
+        height: 225px;
+        left: -2%;
+        top: 44%;
+    }
+    .about_sec_circle2 h3 {
+        font-size: 12px;
+    }
+
+    .container_about a {
+        padding: 8px 12px;
+        margin: 35px;
+        font-size: 1.5em;
+    }
+
+    .container_about {
+        margin-right: 58px;
+        padding-top: 81px;
+    }
+
+    main>section:nth-child(3)>section:nth-child(3)>aside {
+        top: 50px;
+    }
+
+
+}
+
+
+
+/* ================================== 4K ================================== */
+@media all and (min-width: 1441px) and (max-width: 2560px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

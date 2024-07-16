@@ -1,0 +1,171 @@
+#map_useful_links{
+  /*  margin-top: 10vh;*/
+    margin-top: 75.4px;
+
+   /* margin-bottom: 10vh;*/
+    margin-bottom: 75.4px;
+
+  /*  height: 70vh;*/
+    height: 527.8px;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#map_useful_links>div{
+    width: 50%;
+    height: 90%;
+    margin: 10px;
+}
+
+#map_useful_links .display_map{
+    background: rgba(0, 79, 197, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(0, 79, 197, 0.5);
+}
+
+#map_useful_links .display_map>iframe{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    border-radius: 4%;
+}
+.find_me_title{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(102, 102, 102, 0.37);
+    font-size: 5rem;
+    text-align: center;
+}
+.find_me_title i{
+    color: #2b69c5;
+    padding-right: 25px;
+}
+.details_findme>p,.details_findme>h4{
+    text-align: left;
+    padding-left: 20%;
+    font-family: 'Poppins', sans-serif;
+}
+.details_findme>h4>i{
+    font-size: 1.5em;
+    color: #00a400;
+    padding-right: 10px;
+}
+.details_findme>p{
+   margin-top:10px;
+}
+
+
+/*================================== 320->Mobile -S ==================================*/
+@media all and (max-width: 320px){
+    #map_useful_links {
+        margin-top: 25px;
+        margin-bottom: 15px;
+        height: 775px;
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #map_useful_links>div {
+        width: 85%;
+        height: 90%;
+        margin: 10px;
+    }
+    .find_me_title {
+        font-size: 2.5rem;
+    }
+}
+/*================================== 375 ->Mobile -M ==================================*/
+@media all and (min-width: 321px) and (max-width: 376px){
+    #map_useful_links {
+
+        margin-top: 30px;
+        margin-bottom: 15px;
+        height: 775px;
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #map_useful_links>div {
+        width: 85%;
+        height: 90%;
+        margin: 10px;
+    }
+    .find_me_title {
+        font-size: 3rem;
+    }
+
+}
+
+/*================================== 425->Mobile -L ================================== */
+@media all and (min-width: 376px) and (max-width: 426px){
+    #map_useful_links {
+        margin-top: 75.4px;
+        margin-bottom: 15px;
+        height: 800px;
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #map_useful_links>div {
+        width: 85%;
+        height: 90%;
+        margin: 10px;
+    }
+
+    .find_me_title {
+        font-size: 3rem;
+    }
+
+}
+
+/*================================== 768->Tablet ================================== */
+@media all and (min-width: 426px) and (max-width: 768px){
+    .find_me_title {
+        font-size: 3.4rem;
+    }
+
+}
+
+/*================================== 1024->Laptop ================================== */
+@media all and (min-width: 769px) and (max-width: 1024px){
+
+    .find_me_title {
+        font-size: 4rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================== 4K ================================== */
+@media all and (min-width: 1441px) and (max-width: 2560px){
+
+}

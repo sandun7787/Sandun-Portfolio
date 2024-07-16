@@ -1,0 +1,109 @@
+#footer_of_site{
+   /* margin-top: 13.3vh;*/
+    margin-top: 100.29px;
+
+ /*   height: 10vh;*/
+    height: 75.4px;
+
+
+    /*background: linear-gradient(109.6deg, rgb(15, 196, 15) 11.2%, rgb(229, 17, 77) 91.1%);*/
+   /* background: rgba(0, 0, 0, 0.69);*/
+    border-top: 3px solid #dcb41c;
+    background: #ee0979;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#footer_of_site>p{
+    color: white;
+    font-family: 'poppins', sans-serif ;
+    font-size: 0.9em;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+/*================================== 320->Mobile -S ==================================*/
+@media all and (max-width: 320px){
+    #footer_of_site>p {
+
+        font-size: 0.8em;
+        padding-top: 5px;
+        margin-top: 2px;
+    }
+
+    #footer_of_site>p:first-child{
+        padding-top: 17px;
+    }
+
+    #footer_of_site {
+        margin-top: -0.71px;
+    }
+}
+
+/*================================== 375 ->Mobile -M ==================================*/
+@media all and (min-width: 321px) and (max-width: 376px){
+    #footer_of_site>p {
+
+        font-size: 0.8em;
+        padding-top: 5px;
+        margin-top: 2px;
+    }
+
+    #footer_of_site>p:first-child{
+        padding-top: 15px;
+    }
+
+    #footer_of_site {
+        margin-top: -0.71px;
+    }
+
+}
+
+/*================================== 425->Mobile -L ================================== */
+@media all and (min-width: 376px) and (max-width: 426px){
+    #footer_of_site>p {
+
+        font-size: 0.7em;
+        padding-top: 5px;
+        margin-top: 2px;
+    }
+
+    #footer_of_site>p:first-child{
+        padding-top: 15px;
+    }
+
+    #footer_of_site {
+        margin-top: 0.29px;
+    }
+}
+
+/*================================== 768->Tablet ================================== */
+@media all and (min-width: 426px) and (max-width: 768px){
+    #footer_of_site>p {
+
+        font-size: 0.7em;
+        padding-top: 5px;
+        margin-top: 2px;
+    }
+
+    #footer_of_site>p:first-child{
+        padding-top: 16px;
+    }
+}
+
+/*================================== 1024->Laptop ================================== */
+@media all and (min-width: 769px) and (max-width: 1024px){
+
+    #footer_of_site>p {
+
+        font-size: 0.8em;
+        padding-top: 5px;
+        margin-top: 2px;
+    }
+
+    #footer_of_site>p:first-child{
+        padding-top: 17px;
+    }
+
+}

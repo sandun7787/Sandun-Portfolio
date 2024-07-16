@@ -1,0 +1,580 @@
+
+#My_Service{
+    background: url("../assets/My_Service/service-bg.png") no-repeat center;
+    background-size: 100% 100%;
+   /* height: 140vh;*/
+    height: 1055.6px;
+    font-family: 'Poppins', sans-serif;
+ /*   border: 2px solid green;*/
+}
+
+#service_container {
+    position: relative;
+    top: -50px;
+    width:800px;
+    color: #004FC5;
+    text-align:center;
+    margin:auto;
+    padding-bottom: 50px;
+}
+
+/* Define a Title Styles with About Me Section*/
+.service_h1{
+    position: relative;
+    font-size: 40px;
+    display: inline-block;
+    padding:0 15px;
+    margin: auto;
+}
+
+/* Define a Title Styles with About Me Section*/
+.service_h1:before,
+.service_h1:after {
+    position: absolute;
+    top: 50%;
+    width: 150px;
+    height: 3px;
+    content: '';
+    background-color: #004FC5;
+    left:-150px;
+}
+
+/* Define a Title Styles with About Me Section*/
+.service_h1:after {
+    left: 100%;
+}
+
+.service_h2{
+    color: rgba(102, 102, 102, 0.2);
+    font-size:  70px;
+    margin: auto;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#service_List{
+   /* height:70vh;*/
+    height:527.8px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#service_List>div{
+    width: 315px;
+  /*  height:65vh;*/
+    height:490.1px;
+
+    background-color: #E8E7EF;
+    border-radius: 30px;
+    /*box-shadow: 10px 13px 8px -5px rgba(255, 255, 255, 0.15);*/
+    box-shadow: 10px 13px 8px -5px #282626;
+    transition-delay: 0s;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+
+#service_List>div:hover{
+   /* background-image: linear-gradient(360deg, rgb(255, 255, 255) 0%, rgb(15, 196, 15) 100%);*/
+    cursor: pointer;
+    box-shadow: 0px 0px 0 0px rgba(94, 59, 238, 0.4);
+    transition-delay: 0s;
+    transition-property: all;
+    transition-duration: 1s;
+    transform: scale(1.03);
+}
+
+
+#service_List>div>ul{
+    padding-left: 25px;
+    font-size: 14px;
+}
+
+#service_List>div>ul>li{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding-top:15px;
+    letter-spacing: 0.02em;
+}
+
+.service_title{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 22px;
+    color: #403D4E;
+    font-family: 'Poppins', sans-serif;
+}
+
+.one_image,.two_image,.fourth_image{
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.third_image{
+    margin-left: 120px;
+    margin-top: 5px;
+}
+
+
+/*================================== 320->Mobile -S ==================================*/
+@media all and (max-width: 320px){
+    #My_Service{
+        background: #0D57C6;
+        background: -webkit-linear-gradient(to left, #0D57C6, #37CFFF);
+        background: linear-gradient(to left, #0D57C6, #37CFFF);
+        height: 1520px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #service_container {
+        top: 10px;
+        width: 265px;
+        padding-bottom: 30px;
+        color: #fff;
+    }
+
+    .service_h1 {
+        font-size: 17px;
+        padding: 0 8px;
+    }
+
+    .service_h2 {
+        font-size: 30px;
+        padding-bottom: 0px;
+        color: rgba(102, 102, 102, 0.47);
+    }
+    .service_h1:before, .service_h1:after {
+
+        width: 70px;
+        height: 2px;
+        left: -70px;
+        background-color: #fbff00;
+    }
+
+
+    .service_h1:after {
+        left: 100%;
+    }
+
+    #service_List {
+        height: 1363px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #service_List>div {
+
+        width: 245px;
+        height: 306px;
+        box-shadow: 10px 13px 8px -10px #282626;
+    }
+
+
+    .service_title {
+        padding-top: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+    }
+
+    .one_image, .two_image, .fourth_image {
+        margin-left: 107px;
+        margin-top: 16px;
+        margin-bottom: 1px;
+        width: 45px;
+        height: 45px;
+    }
+    .third_image {
+        margin-left: 107px;
+        margin-top: 15px;
+        width: 45px;
+        height: 45px;
+    }
+    #service_List>div>ul>li {
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        padding-top: 10px;
+        padding-right: 5px;
+        letter-spacing: 0.04em;
+        font-size: 12px;
+    }
+}
+/*================================== 375 ->Mobile -M ==================================*/
+@media all and (min-width: 321px) and (max-width: 376px){
+    #My_Service{
+        background: #0D57C6;
+        background: -webkit-linear-gradient(to left, #0D57C6, #37CFFF);
+        background: linear-gradient(to left, #0D57C6, #37CFFF);
+        height: 1580px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #service_container {
+        top: 10px;
+        width: 354px;
+        padding-bottom: 30px;
+        color: #fff;
+    }
+
+    .service_h1 {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    .service_h2 {
+        font-size: 33px;
+        padding-bottom: 0px;
+        color: rgba(102, 102, 102, 0.47);
+    }
+    .service_h1:before, .service_h1:after {
+
+        width: 70px;
+        height: 2px;
+        left: -70px;
+        background-color: #fbff00;
+    }
+
+
+    .service_h1:after {
+        left: 100%;
+    }
+
+    #service_List {
+        height: 1425px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #service_List>div {
+
+        width: 260px;
+        height: 320px;
+        box-shadow: 10px 13px 8px -10px #282626;
+    }
+
+
+    .service_title {
+        padding-top: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+    }
+
+    .one_image, .two_image, .fourth_image {
+        margin-left: 107px;
+        margin-top: 16px;
+        margin-bottom: 1px;
+        width: 45px;
+        height: 45px;
+    }
+    .third_image {
+        margin-left: 107px;
+        margin-top: 15px;
+        width: 45px;
+        height: 45px;
+    }
+    #service_List>div>ul>li {
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        padding-top: 10px;
+        padding-right: 5px;
+        letter-spacing: 0.04em;
+        font-size: 12px;
+    }
+
+}
+
+/*================================== 425->Mobile -L ================================== */
+@media all and (min-width: 376px) and (max-width: 426px){
+
+    #My_Service{
+        background: #0D57C6;
+        background: -webkit-linear-gradient(to left, #0D57C6, #37CFFF);
+        background: linear-gradient(to left, #0D57C6, #37CFFF);
+        height: 1650px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #service_container {
+        top: 10px;
+        width: 400px;
+        padding-bottom: 50px;
+        color: #fff;
+    }
+
+    .service_h1 {
+        font-size: 24px;
+        padding: 0 10px;
+    }
+
+    .service_h2 {
+        font-size: 37px;
+        padding-bottom: 0px;
+        color: rgba(102, 102, 102, 0.47);
+    }
+    .service_h1:before, .service_h1:after {
+
+        width: 70px;
+        height: 2px;
+        left: -70px;
+        background-color: #fbff00;
+    }
+
+
+    .service_h1:after {
+        left: 100%;
+    }
+
+    #service_List {
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #service_List>div {
+
+        width: 300px;
+        height: 340px;
+        box-shadow: 10px 13px 8px -10px #282626;
+    }
+
+
+    .service_title {
+        padding-top: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+    }
+
+    .one_image, .two_image, .fourth_image {
+        margin-left: 120px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 50px;
+        height: 50px;
+    }
+    .third_image {
+        margin-left: 120px;
+        margin-top: 15px;
+        width: 50px;
+        height: 50px;
+    }
+    #service_List>div>ul>li {
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        padding-top: 13px;
+        padding-right: 5px;
+        letter-spacing: 0.04em;
+        font-size: 12.5px;
+    }
+}
+
+/*================================== 768->Tablet ================================== */
+@media all and (min-width: 426px) and (max-width: 768px){
+    #My_Service{
+
+        height: 1180px;
+        font-family: 'Poppins', sans-serif;
+        /* border: 2px solid green;*/
+    }
+
+    #service_container {
+        top: -65px;
+        width: 580px;
+        padding-bottom: 50px;
+    }
+
+    .service_h1 {
+        font-size: 30px;
+        padding: 0 15px;
+    }
+
+    .service_h2 {
+        font-size: 60px;
+        padding-bottom: 50px;
+    }
+
+    #service_List {
+        position: relative;
+        margin: auto;
+        top: 40px;
+        width: 80vw;
+        height: 750px;
+        /* border: 2px solid #e70042; */
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 38px;
+        row-gap: 38px;
+        justify-items: center;
+    }
+
+    #service_List>div {
+        width: 264px;
+        height: 355px;
+    }
+
+    .service_title {
+        padding-top: 15px;
+        text-align: center;
+        color: #403D4E;
+        font-size: 20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .one_image, .two_image, .fourth_image {
+        margin-left: 106px;
+        margin-top: 17px;
+        margin-bottom: 9px;
+        width: 50px;
+        height: 50px;
+    }
+    .third_image {
+        margin-left: 106px;
+        margin-top: 27px;
+        width: 50px;
+        height: 50px;
+    }
+
+    #service_List>div>ul {
+        padding-left: 25px;
+        font-size: 12px;
+        padding-right: 5px;
+    }
+    #service_List>div>ul>li {
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        padding-top: 8px;
+        letter-spacing: 0.04em;
+    }
+}
+
+/*================================== 1024->Laptop ================================== */
+@media all and (min-width: 769px) and (max-width: 1024px){
+
+    #My_Service{
+        height: 1250px;
+        font-family: 'Poppins', sans-serif;
+       /* border: 2px solid green;*/
+    }
+
+    #service_container {
+        top: -65px;
+        width: 650px;
+        padding-bottom: 50px;
+    }
+
+    .service_h1 {
+        font-size: 35px;
+        padding: 0 15px;
+    }
+
+    .service_h2 {
+        font-size: 65px;
+        padding-bottom: 50px;
+    }
+
+    #service_List {
+        position: relative;
+        margin: auto;
+        top: 40px;
+        width: 80vw;
+        height: 855px;
+        /* border: 2px solid #e70042; */
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
+        column-gap: -17px;
+        row-gap: 33px;
+        justify-items: center;
+    }
+
+    #service_List>div {
+        width: 315px;
+        height: 395px;
+    }
+
+    .service_title {
+        padding-top: 15px;
+        text-align: center;
+        color: #403D4E;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .one_image, .two_image, .fourth_image {
+        margin-left: 125px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 60px;
+        height: 60px;
+    }
+    .third_image {
+        margin-left: 119px;
+        margin-top: 15px;
+        width: 70px;
+        height: 70px;
+    }
+
+    #service_List>div>ul {
+        padding-left: 25px;
+        font-size: 14px;
+        padding-right: 5px;
+    }
+    #service_List>div>ul>li {
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        padding-top: 15px;
+        letter-spacing: 0.04em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*================================== 1440->Laptop large ================================== */
+@media all and (min-width: 1025px) and (max-width: 1440px){
+
+
+
+
+
+
+
+
+}

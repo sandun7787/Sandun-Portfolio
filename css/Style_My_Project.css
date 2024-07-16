@@ -1,0 +1,860 @@
+
+.My_Projects {
+    /* height: 240vh;*/
+    height: 1809.6px;
+    /*++++++ Main Border ++++++++++*/
+}
+
+.title_of_projects {
+    /*++++++ Title Border ++++++++++*/
+}
+
+/*------------------------------------------------------------*/
+#projects_container {
+    width: 700px;
+    color: #004FC5;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 90px;
+    text-align: center;
+    margin: auto;
+}
+
+.project_h1 {
+    position: relative;
+    font-size: 40px;
+    display: inline-block;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.project_h1:before,
+.project_h1:after {
+    position: absolute;
+    top: 50%;
+    width: 150px;
+    height: 3px;
+    content: '';
+    background-color: #004FC5;
+    left: -150px;
+}
+
+/* Define a Title Styles with About Me Section*/
+.project_h1:after {
+    left: 100%;
+}
+
+/* About section h2 styles*/
+.project_h2 {
+    color: rgba(102, 102, 102, 0.2);
+    font-size: 70px;
+    margin: auto;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------*/
+.Project_description {
+    /*+++++++Project_description Border+++++++++*/
+    /*height: 20vh;*/
+    height: 150.8px;
+    margin-bottom: 10px;
+}
+
+.Project_description .P-1, .P-2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.Project_description .P-2 {
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.Btn_Github a {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background: #fc00ff;
+    background: -webkit-linear-gradient(to left, #fc00ff, #00dbde);
+    background: linear-gradient(to left, #fc00ff, #00dbde);
+    font-size: 23px;
+    padding: 4px 40px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 2px solid #fc00ff;
+    border: -webkit-linear-gradient(to left, #fc00ff, #00dbde);
+    border: linear-gradient(to left, #fc00ff, #00dbde);
+    transition: all 0.3s ease;
+
+}
+
+.Btn_Github a:hover {
+    color: #0a980a;
+    background: none;
+}
+
+.Btn_Github a i {
+    color: #ffffff;
+}
+
+.Btn_Github a:hover i {
+    color: #0a980a;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/*=============================PROJECT SLIDE SHOW STYLES============================================*/
+
+#project_view_container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 70vh;*/
+    min-height: 527.8px;
+    background: #fff;
+    font-family: 'poppins', sans-serif;
+    position: relative;
+}
+
+.card {
+    position: relative;
+    background: ghostwhite;
+    width: 350px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.card .content {
+    width: 350px;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+
+.card .content a {
+    display: inline-block;
+    color: #fff;
+    background: crimson;
+    font-size: 16px;
+    padding: 4px 40px;
+    border-radius: 20px;
+    border: 3px solid crimson;
+    transition: all 0.3s ease;
+    margin-top: 65px;
+    margin-left: 65px;
+
+}
+
+.card .content a:hover {
+    color: #ffffff;
+    background: none;
+}
+
+.card .content .description {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    /* padding-top: 50px;*/
+}
+
+.card .sliderText {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.card .sliderText h3 {
+    color: #ffffff;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.swiper-slide {
+    max-width: 350px;
+}
+
+.swiper-slide:nth-child(1) .sliderText {
+    background: #2196f3;
+}
+
+.swiper-slide:nth-child(2) .sliderText {
+    background: #e91e63;
+}
+
+.swiper-slide:nth-child(3) .sliderText {
+    background: #1eb61e;
+}
+
+.swiper-slide:nth-child(4) .sliderText {
+    background: #ff9800;
+}
+
+.swiper-slide:nth-child(5) .sliderText {
+    background: #c33ada;
+}
+
+.card #Hostel_bg {
+
+    background-size: 100% 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../assets/Project/hostel.jpg") no-repeat center;
+}
+
+.card #ChatApplication_bg {
+    background-size: 100% 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../assets/Project/friends-social-media.jpg") no-repeat center;
+}
+
+.card #Vehicle_bg {
+    background-size: 100% 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../assets/Project/vehicle_service.jpg") no-repeat center;
+}
+
+.card #Parking_bg {
+    background-size: 100% 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../assets/Project/car_parking.jpg") no-repeat center;
+}
+
+.card #Pos_bg {
+    background-size: 100% 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../assets/Project/pos_system.jpg") no-repeat center;
+}
+
+/*================================================================================================*/
+#viewMore_btn {
+    display: inline-block;
+    position: relative;
+    left: 42vw;
+    color: #fff;
+    background: #B22626;
+    font-size: 20px;
+    padding: 4px 40px;
+    border-radius: 20px;
+    border: 3px solid #B22626;
+    transition: all 0.3s ease;
+}
+
+#viewMore_btn:hover {
+    color: black;
+    background: none;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////*/
+/*=============================ASSIGNMENT SLIDE SHOW STYLES============================================*/
+
+
+#assignment_view_container {
+    margin-top: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 70vh;*/
+    min-height: 527.8px;
+    background: #fff;
+    font-family: 'poppins', sans-serif;
+    position: relative;
+}
+
+.card_below {
+    position: relative;
+    background: ghostwhite;
+    width: 350px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.card_below .content {
+    width: 350px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card_below .content a {
+    display: inline-block;
+    color: #fff;
+    background: crimson;
+    font-size: 16px;
+    padding: 4px 40px;
+    border-radius: 20px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.card_below .content img {
+    width: 320px;
+    height: 220px
+}
+
+
+.card_below .content a:hover {
+    color: #000000;
+    background: none;
+}
+
+.card_below .content .description {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.card_below .sliderText {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.card_below .sliderText h3 {
+    color: #ffffff;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+/*Important slide decoration*/
+.assignment_view_container .swiper-container
+.swiper-wrapper .swiper-slide {
+    max-width: 350px;
+}
+
+#slide-1 .sliderText {
+    background: #004FC5;
+}
+
+#slide-2 .sliderText {
+    background: #004FC5;
+}
+
+#slide-3 .sliderText {
+    background: #004FC5;
+}
+
+#slide-4 .sliderText {
+    background: #004FC5;
+}
+
+#slide-5 .sliderText {
+    background: #004FC5;
+}
+
+#slide-6 .sliderText {
+    background: #004FC5;
+}
+
+#slide-7 .sliderText {
+    background: #004FC5;
+}
+
+#slide-8 .sliderText {
+    background: #004FC5;
+}
+
+#slide-9 .sliderText {
+    background: #004FC5;
+}
+
+#slide-10 .sliderText {
+    background: #004FC5;
+}
+
+#slide-11 .sliderText {
+    background: #004FC5;
+}
+
+#slide-12 .sliderText {
+    background: #004FC5;
+}
+
+#slide-13 .sliderText {
+    background: #004FC5;
+}
+
+#slide-14 .sliderText {
+    background: #004FC5;
+}
+
+#slide-15 .sliderText {
+    background: #004FC5;
+}
+
+#slide-16 .sliderText {
+    background: #004FC5;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////*/
+
+#title-02 {
+    margin-top: 50px;
+}
+
+.Style_title-02 {
+    font-family: 'poppins', sans-serif;
+    color: rgba(102, 102, 102, 0.2);
+    font-size: 90px;
+    margin: auto;
+    text-align: center;
+}
+
+#title-03 {
+    margin-top: 50px;
+}
+
+.Style_title-03 {
+    font-family: 'poppins', sans-serif;
+    color: rgba(102, 102, 102, 0.2);
+    font-size: 90px;
+    margin: auto;
+    text-align: center;
+}
+
+#pagination-bullets_project {
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+}
+
+#pagination-bullets_assignment {
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+
+}
+
+.swiper-pagination-bullet {
+    border: none;
+    margin: 5px;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+/*================================== 320->Mobile -S ==================================*/
+@media all and (max-width: 320px) {
+    .My_Projects {
+        height: 1620px;
+    }
+
+    #projects_container {
+        width: 265px;
+        padding-top: 70px;
+        margin: auto;
+    }
+
+    .project_h1 {
+        font-size: 17px;
+        padding: 0 8px;
+    }
+
+    .project_h1:before, .project_h1:after {
+
+        width: 70px;
+        height: 2px;
+        left: -70px;
+    }
+
+    .project_h1:after {
+        left: 100%;
+    }
+
+    .project_h2 {
+        font-size: 27px;
+        padding-bottom: 10px;
+    }
+
+    .Project_description .P-1, .P-2 {
+        font-size: 13px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .Project_description .P-2 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .Btn_Github a {
+        font-size: 15px;
+        padding: 3px 9px;
+        margin-top: 30px;
+        /*margin-bottom: 10px;*/
+    }
+
+    .Style_title-02 {
+        font-size: 38px;
+        margin: 0;
+    }
+
+    #project_view_container {
+        /* border: 2px solid red;*/
+    }
+
+    .Style_title-03 {
+
+        font-size: 38px;
+        margin: auto;
+    }
+
+    #assignment_view_container {
+        /* border: 2px solid red;*/
+    }
+
+
+    .swiper-slide {
+        max-width: 319px;
+    }
+
+    .card {
+        position: relative;
+        background: ghostwhite;
+        width: 319px;
+        height: 450px;
+        margin: 0 auto;
+    }
+
+    .card .content {
+        width: 319px;
+        padding: 35px;
+        box-sizing: border-box;
+    }
+
+    .card_below {
+        /* background: ghostwhite;*/
+        position: relative;
+        background: #b9b9d74d;
+        width: 320px;
+        height: 450px;
+        margin: 0 auto;
+    }
+
+    .card_below .content {
+        width: 319px;
+        padding: 35px;
+        box-sizing: border-box;
+    }
+
+    .card .content a {
+
+        font-size: 15px;
+        padding: 4px 40px;
+        margin-top: 65px;
+        margin-left: 39px;
+    }
+
+    .card_below .content a {
+        font-size: 15px;
+        padding: 4px 40px;
+        margin-top: 65px;
+        margin-left: 60px;
+    }
+
+
+    .card_below .content img {
+        width: 250px;
+        height: 180px
+    }
+
+    .card_below .content a {
+        font-size: 15px;
+        padding: 4px 30px;
+        border: 1px solid crimson;
+        margin-top: 15px;
+        margin-left: 68px;
+    }
+
+}
+
+/*================================== 375 ->Mobile -M ==================================*/
+@media all and (min-width: 321px) and (max-width: 376px) {
+
+    .My_Projects {
+        height: 1640px;
+    }
+
+    #projects_container {
+        width: 354px;
+        padding-top: 70px;
+        margin: auto;
+    }
+
+    .project_h1 {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    .project_h1:before, .project_h1:after {
+
+        width: 70px;
+        height: 2px;
+        left: -70px;
+    }
+
+    .project_h1:after {
+        left: 100%;
+    }
+
+    .project_h2 {
+        font-size: 32px;
+    }
+
+    .Project_description .P-1, .P-2 {
+        font-size: 13px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .Project_description .P-2 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .Btn_Github a {
+        font-size: 16px;
+        padding: 3px 9px;
+        margin-top: 30px;
+        /*margin-bottom: 10px;*/
+    }
+
+    .Style_title-02 {
+        font-size: 43px;
+        margin: 0;
+    }
+
+    #project_view_container {
+        /* border: 2px solid red;*/
+    }
+
+    .Style_title-03 {
+
+        font-size: 42px;
+        margin: auto;
+    }
+
+    #assignment_view_container {
+        /* border: 2px solid red;*/
+    }
+
+    .card_below .content a {
+        font-size: 15px;
+        padding: 4px 30px;
+        border: 2px solid crimson;
+        margin-top: 15px;
+        margin-left: 110px;
+    }
+
+}
+
+/*================================== 425->Mobile -L ================================== */
+@media all and (min-width: 376px) and (max-width: 426px) {
+    .My_Projects {
+        /* height: 240vh; */
+        height: 1695px;
+    }
+
+    #projects_container {
+        width: 400px;
+        padding-top: 90px;
+        margin: auto;
+    }
+
+    .project_h1 {
+        font-size: 24px;
+        padding: 0 10px;
+    }
+
+    .project_h1:before, .project_h1:after {
+
+        width: 70px;
+        height: 3px;
+        left: -70px;
+    }
+
+    .project_h1:after {
+        left: 100%;
+    }
+
+    .project_h2 {
+        font-size: 36px;
+    }
+
+    .Project_description .P-1, .P-2 {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .Project_description .P-2 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+    .Btn_Github a {
+        font-size: 18px;
+        padding: 3px 10px;
+        margin-top: 30px;
+        /*  margin-bottom: 10px;*/
+    }
+
+    .Style_title-02 {
+        font-size: 50px;
+        margin: 0;
+    }
+
+    #project_view_container {
+        /* border: 2px solid red;*/
+    }
+
+    .Style_title-03 {
+
+        font-size: 50px;
+        margin: auto;
+    }
+
+    #assignment_view_container {
+        /* border: 2px solid red;*/
+    }
+}
+
+/*================================== 768->Tablet ================================== */
+@media all and (min-width: 426px) and (max-width: 768px) {
+    .My_Projects {
+        /* height: 240vh; */
+        height: 1850px;
+    }
+
+    #projects_container {
+        width: 580px;
+        padding-top: 90px;
+        margin: auto;
+    }
+
+    .project_h1 {
+        font-size: 30px;
+        padding: 0 15px;
+    }
+
+    .project_h2 {
+        font-size: 60px;
+    }
+
+    .Project_description .P-1, .P-2 {
+        font-size: 15px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .Btn_Github a {
+        font-size: 21px;
+        padding: 3px 14px;
+        margin-top: 30px;
+    }
+
+    .Style_title-02 {
+        font-size: 72px;
+        margin: 0;
+    }
+
+    #project_view_container {
+        /* border: 2px solid red;*/
+    }
+
+    .Style_title-03 {
+
+        font-size: 72px;
+        margin: auto;
+    }
+
+    #assignment_view_container {
+        /* border: 2px solid red;*/
+    }
+}
+
+/*================================== 1024->Laptop ================================== */
+@media all and (min-width: 769px) and (max-width: 1024px) {
+
+    .My_Projects {
+        /* height: 240vh; */
+        height: 1850px;
+    }
+
+    #projects_container {
+        width: 650px;
+        padding-top: 90px;
+        margin: auto;
+    }
+
+    .project_h1 {
+        font-size: 35px;
+        padding: 0 15px;
+    }
+
+    .project_h2 {
+        font-size: 65px;
+    }
+
+    .Project_description .P-1, .P-2 {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .Btn_Github a {
+        font-size: 23px;
+        padding: 4px 20px;
+        margin-top: 30px;
+    }
+
+    .Style_title-02 {
+        font-size: 75px;
+        margin: 0;
+    }
+
+    #project_view_container {
+        /* border: 2px solid red;*/
+    }
+
+    .Style_title-03 {
+        font-size: 75px;
+        margin: auto;
+    }
+
+    #assignment_view_container {
+        /* border: 2px solid red;*/
+    }
+
+}
+
+
+/* ================================== 4K ================================== */
+@media all and (min-width: 1441px) and (max-width: 2560px) {
+
+}
+
+
+
