@@ -26,8 +26,7 @@
 🌱 GitHub-Pages-URL----> [Click Me!](https://isharamaduranga.github.io/My-Portfolio/)<br>
 🌱 InfinitiFree-WebHost-URL----> [Click Me!](http://isharamaduranga.epizy.com)
 
-## Basic Background of PortFolio
-<img src="assets/Readme/My_PortFilo_Mock-up-1.png">
+
 
 ## Technology /framework used
 * HTML
