@@ -223,7 +223,7 @@
 .card #Parking_bg {
     background-size: 100% 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
-    url("../assets/Project/car_parking.jpg") no-repeat center;
+    url("../assets/Project/hs.jpg") no-repeat center;
 }
 
 .card #Pos_bg {
