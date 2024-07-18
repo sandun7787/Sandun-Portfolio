@@ -34,4 +34,4 @@
 * Java Script
 
 ## License
-**Copyright @ 2024 My PortFoliyo All Right Reserved By Ishara Maduranga**
+**Copyright @ 2024 My PortFoliyo All Right Reserved By Sandun Warnasooriya**
